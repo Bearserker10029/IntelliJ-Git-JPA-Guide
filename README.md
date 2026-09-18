@@ -12,6 +12,7 @@ Esta es una guía para configurar un proyecto en IntelliJ IDEA con Git y crear e
 - [Paso 5: Pushear cambios al repositorio y creación de ramas](#paso-5-pushear-cambios-al-repositorio-y-creación-de-ramas)
 - [Paso 6: Crear ramas en GitHub](#paso-6-crear-ramas-en-github)
 - [Paso 7: Crear entidades JPA desde la base de datos](#paso-7-crear-entidades-jpa-desde-la-base-de-datos)
+- [Paso 8: Cambiar de rama y hacer merge](#paso-8-cambiar-de-rama-y-hacer-merge)
 
 ---
 
@@ -53,6 +54,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes componentes:
 ![imagen](images/git/git-3.png)
 ![imagen](images/git/git-4.png)
 ![imagen](images/git/git-5.png)
+![imagen](images/git/git-9.png)
 ![imagen](images/git/git-6.png)
 ![imagen](images/git/git-7.png)
 ![imagen](images/git/git-8.png)
@@ -119,6 +121,17 @@ Antes de comenzar, asegúrate de tener instalados los siguientes componentes:
 6. Se verifica que se creó los archivos de las entidades JPA en la carpeta "entities" dentro del paquete principal del proyecto.
 ![imagen](images/mysql/mysql-11.png)
 
+## Paso 8: Cambiar de rama y hacer merge
+1. Para cambiar de rama, ve al icono de ramas en la esquina inferior derecha de IntelliJ IDEA y selecciona la rama a la que deseas cambiar. En este caso, se cambia a la rama "master".
+![imagen](images/push-branch/branch-7.png)
+
+2. Para hacer un merge de la rama "dev" a la rama "master", primero asegúrate de estar en la rama "master". Luego, ve a la opción de la rama "dev" y slecciona "Merge into master". Esto combinará los cambios de la rama "dev" en la rama "master".
+![imagen](images/push-branch/branch-8.png)
+
+3. Después de hacer el merge, puedes verificar que los cambios se han combinado correctamente en la rama "master" revisando los archivos.
+![imagen](images/push-branch/branch-9.png)
+
+4. Finalmente, sube los cambios de la rama "master" a GitHub siguiendo los mismos pasos que en el Paso 5.
 ---
 
 ## Licencia
