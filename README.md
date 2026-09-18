@@ -2,6 +2,19 @@
 
 Esta es una guía para configurar un proyecto en IntelliJ IDEA con Git y crear entinties JPA (Java Persistence API) desde una base de datos. A continuación, se detallan los pasos necesarios para crear un proyecto desde cero, configurar el control de versiones con Git y establecer la persistencia de datos utilizando JPA.
 
+## Tabla de Contenidos
+
+- [Requisitos previos](#requisitos-previos)
+- [Paso 1: Iniciar sesión en IntelliJ IDEA](#paso-1-iniciar-sesión-en-intellij-idea)
+- [Paso 2: Crear un nuevo proyecto](#paso-2-crear-un-nuevo-proyecto)
+- [Paso 3: Configurar GitHub en el Intellij IDEA](#paso-3-configurar-github-en-el-intellij-idea)
+- [Paso 4: Subir el proyecto en GitHub](#paso-4-subir-el-proyecto-en-github)
+- [Paso 5: Pushear cambios al repositorio y creación de ramas](#paso-5-pushear-cambios-al-repositorio-y-creación-de-ramas)
+- [Paso 6: Crear ramas en GitHub](#paso-6-crear-ramas-en-github)
+- [Paso 7: Crear entidades JPA desde la base de datos](#paso-7-crear-entidades-jpa-desde-la-base-de-datos)
+
+---
+
 ## Requisitos previos
 Antes de comenzar, asegúrate de tener instalados los siguientes componentes:
 - IntelliJ IDEA (versión Community o Ultimate)
@@ -31,7 +44,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes componentes:
 4. Haz clic en "Create" para crear el proyecto.
 ![imagen](images/project/project-4.png)
 
-## Paso 3: Configurar Git en el proyecto
+## Paso 3: Configurar GitHub en el Intellij IDEA
 1. Entrar a File/Settings/Version Control/Github.
 ![imagen](images/git/git-1.png)
 ![imagen](images/git/git-2.png)
