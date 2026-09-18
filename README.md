@@ -1,0 +1,1 @@
+# IntelliJ-Git-JPA-Guide
